@@ -1,4 +1,2 @@
 yobuku
 
-testing testing
-hello

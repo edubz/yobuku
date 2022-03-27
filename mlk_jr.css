@@ -21,9 +21,9 @@
     background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
     overflow: scroll;
   }
-  
-  header {
+  .header {
     position: relative;
+    top: 100px;
     left: 2px;
     width: 293px;
     height: 45px;
@@ -43,12 +43,14 @@
     font-size: 1.05em;
     padding-left: 5px;
     font-family: "Playfair Display", serif;
-    text-align: start;
+    text-align: center;
     font-weight: bold;
   }
   
   .quote {
     border: solid 2px; 
+    position: relative;
+    top: 105px;
     width: 295px;
     height: 105px;
     font-size: 20px;
@@ -58,8 +60,6 @@
     margin-top: 5px;
     margin-left: 5px;
     padding: 10px;
-    grid-column: 1 / 4;
-    grid-row: 2;
   }
   
   #quote-text {
@@ -72,6 +72,8 @@
     margin: 5px;
     position: relative;
     right: 70px;
+    top: 105px;
+    background-color: lightgrey;
   }
   #generate:hover {
     cursor: pointer;
@@ -85,6 +87,7 @@
     width: 150px;
     height: 150px;
     margin-left: 10px;
+    top: 105px;
   }
   img{
     width: 235px;

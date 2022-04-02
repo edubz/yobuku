@@ -1,0 +1,13 @@
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    color: black;
+    transition: color 0.15s ease-in-out;
+}
+
+a:hover {
+    color: white;
+    transition: color 0.15s ease-in-out;
+}
